@@ -1,0 +1,117 @@
+{
+ "C_exhaustion": 25.842021894796673,
+ "kappa_is": 0.048997254484794674,
+ "t_per_rotation": 43.581955782084194,
+ "demo": {
+  "qubits": 8,
+  "ancilla": 1,
+  "two_qubit_per_A": 254,
+  "two_qubit_per_A_routed": 419,
+  "two_qubit_per_Q": 544
+ },
+ "logical": [
+  {
+   "n": 2,
+   "loss_bits": 7,
+   "logical_qubits": 31,
+   "rotations": 123,
+   "toffoli_ands": 66,
+   "t_gates": 5624.580561196356,
+   "rotation_t_share": 0.953063166732588
+  },
+  {
+   "n": 5,
+   "loss_bits": 8,
+   "logical_qubits": 57,
+   "rotations": 318,
+   "toffoli_ands": 177,
+   "t_gates": 14567.061938702773,
+   "rotation_t_share": 0.9513971998623184
+  },
+  {
+   "n": 10,
+   "loss_bits": 9,
+   "logical_qubits": 99,
+   "rotations": 643,
+   "toffoli_ands": 388,
+   "t_gates": 29575.197567880135,
+   "rotation_t_share": 0.9475235965393674
+  },
+  {
+   "n": 20,
+   "loss_bits": 10,
+   "logical_qubits": 181,
+   "rotations": 1293,
+   "toffoli_ands": 849,
+   "t_gates": 59747.468826234865,
+   "rotation_t_share": 0.9431607720508349
+  },
+  {
+   "n": 50,
+   "loss_bits": 11,
+   "logical_qubits": 423,
+   "rotations": 3243,
+   "toffoli_ands": 2310,
+   "t_gates": 150576.28260129903,
+   "rotation_t_share": 0.9386357543142038
+  },
+  {
+   "n": 100,
+   "loss_bits": 12,
+   "logical_qubits": 825,
+   "rotations": 6493,
+   "toffoli_ands": 5011,
+   "t_gates": 303021.63889307267,
+   "rotation_t_share": 0.9338529087453291
+  }
+ ],
+ "footprint": [
+  {
+   "n": 2,
+   "a": 3.163e-05,
+   "oracle_calls": 459490.8781376761,
+   "total_t": 2584443461.2202168,
+   "code_distance": 25,
+   "physical_qubits": 178125.0,
+   "runtime_s": 6461.108653050543,
+   "target": "both exhausted"
+  },
+  {
+   "n": 5,
+   "a": 0.0010095729160869028,
+   "oracle_calls": 81331.28696322946,
+   "total_t": 1184757894.747773,
+   "code_distance": 25,
+   "physical_qubits": 226875.0,
+   "runtime_s": 2961.8947368694326,
+   "target": "loss > half aggregate principal"
+  },
+  {
+   "n": 10,
+   "a": 5.908837023560627e-06,
+   "oracle_calls": 1063103.3442883934,
+   "total_t": 31441491442.40333,
+   "code_distance": 29,
+   "physical_qubits": 369777.0,
+   "runtime_s": 78603.72860600833,
+   "target": "loss > half aggregate principal"
+  },
+  {
+   "n": 20,
+   "a": 2.753445786068753e-10,
+   "oracle_calls": 155735716.4593093,
+   "total_t": 9304814864283.936,
+   "code_distance": 33,
+   "physical_qubits": 711327.0,
+   "runtime_s": 23262037.16070984,
+   "target": "loss > half aggregate principal"
+  }
+ ],
+ "oracle_time_10_s": 0.07393799391970034,
+ "break_even": {
+  "Monte Carlo@1us": 2.739124001904519e-09,
+  "Monte Carlo@10us": 2.739124001904519e-07,
+  "Importance sampling@1us": 6.575899759173407e-12,
+  "Importance sampling@10us": 6.575899759173409e-10
+ }
+}
