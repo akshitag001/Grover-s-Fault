@@ -12,7 +12,7 @@ Requirements: Python >= 3.11 (developed on 3.12.4). Dependencies are only `numpy
 ```bash
 git clone https://github.com/akshitag001/Grover-s-Fault.git
 cd Grover-s-Fault
-python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scriptsctivate
+python -m venv .venv && source .venv/bin/activate     # Windows: .venv/Scripts/activate
 pip install -r requirements.txt                        # pinned versions (same as requirements.lock)
 python -m pytest -q tests                              # 29 tests, ~15 s
 ./run_all.sh                                           # full reproduction, ~4 min on one CPU core
