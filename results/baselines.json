@@ -159,7 +159,7 @@
     true,
     true
    ],
-   "seconds": 16.561636209487915,
+   "seconds": 14.982629537582397,
    "queries_to_1pct_fit": [
     46821.46791547759,
     236344.9710403608,
@@ -283,7 +283,7 @@
     false,
     true
    ],
-   "seconds": 24.084004640579224
+   "seconds": 22.906437158584595
   },
   "Stratified": {
    "rel_rmse": [
@@ -400,7 +400,7 @@
     false,
     true
    ],
-   "seconds": 17.242719888687134
+   "seconds": 16.02908444404602
   },
   "Importance sampling": {
    "rel_rmse": [
@@ -517,7 +517,7 @@
     false,
     true
    ],
-   "seconds": 39.775973320007324
+   "seconds": 36.93990421295166
   }
  },
  "scenarios": {

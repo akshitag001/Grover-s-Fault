@@ -1,9 +1,9 @@
 # Grover's Fault
 
-**Team TuringIRL — ADB Quantum Innovation Challenge, Phase 1 prototype**
+**Team TuringIRL — Phase 1 prototype**
 
 Quantum and tensor-network joint-loss modelling for the Kyrgyz Republic–Tajikistan
-Disaster Relief Bond benchmark (ADB Quantum Innovation Challenge brief, Section 3).
+Disaster Relief Bond benchmark (brief, Section 3).
 
 ## Setup and execution
 
@@ -18,7 +18,7 @@ python -m pytest -q tests                              # 29 tests, ~15 s
 ./run_all.sh                                           # full reproduction, ~4 min on one CPU core
 ```
 
-Run one experiment at a time: `python scripts/run_baselines.py`, `run_qae.py`, `run_mps.py`, `run_resources.py`, then `make_figures.py` and `summary.py`.
+Run one experiment at a time: `python scripts/run_baselines.py`, `run_qae.py`, `run_mps.py`, `run_resources.py`, then `make_figures.py`, `make_fig4.py` and `summary.py`.
 All random seeds are fixed in the scripts, so reruns reproduce `results/*.json` exactly.
 
 ## Hardware and simulator details
@@ -45,6 +45,7 @@ Queries to reach 1% relative RMSE, base scenario (from `results/SUMMARY.md`):
 Tensor network: matches all 25 Table 5 values to ~1e-14 relative error; a 200-country chain contracts in ~0.2 s.
 
 ![Queries to 1%](figures/fig1_queries_to_1pct.png)
+![Crossover](figures/fig4_crossover.png)
 
 
 `run_all.sh` runs the tests, every experiment, the figures, and writes

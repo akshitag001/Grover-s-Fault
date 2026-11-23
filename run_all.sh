@@ -8,4 +8,5 @@ python3 scripts/run_qae.py
 python3 scripts/run_mps.py
 python3 scripts/run_resources.py
 python3 scripts/make_figures.py
+python3 scripts/make_fig4.py
 python3 scripts/summary.py

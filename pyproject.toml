@@ -1,7 +1,7 @@
 [project]
 name = "adbq"
 version = "0.1.0"
-description = "TuringIRL - ADB Quantum Challenge Phase 1 prototype"
+description = "TuringIRL Phase 1 prototype: quantum and tensor-network joint-loss modelling"
 requires-python = ">=3.11"
 dependencies = ["numpy", "scipy", "matplotlib"]
 [tool.setuptools.packages.find]

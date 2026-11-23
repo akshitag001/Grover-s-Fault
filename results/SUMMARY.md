@@ -47,18 +47,18 @@ Importance sampling slopes: -0.49, -0.55, -0.51, -0.55, -0.48; rel RMSE at 1,048
 ## Tensor network
 
 Table 5 max rel diff: adb-base 3.9e-14, adb-independent 3.8e-14, adb-common-shock 4.4e-15, adb-rain-stress 5.3e-14, adb-rain-cover 3.9e-14
-- n=2: brute 0.001s, MPS 0.7 ms, max rel diff 4.6e-14
-- n=3: brute 0.007s, MPS 3.7 ms, max rel diff 3.0e-14
-- n=4: brute 0.137s, MPS 5.3 ms, max rel diff 3.2e-14
-- n=5: brute 5.936s, MPS 6.0 ms, max rel diff 5.5e-14
-- n=2: 0.9 ms; all pay 4.41e-02; loss > half aggregate 1.20e-02
-- n=5: 5.3 ms; all pay 5.29e-04; loss > half aggregate 1.01e-03
-- n=10: 6.8 ms; all pay 3.58e-07; loss > half aggregate 5.91e-06
-- n=20: 9.4 ms; all pay 1.62e-13; loss > half aggregate 2.75e-10
-- n=50: 33.5 ms; all pay 1.51e-32; loss > half aggregate 7.78e-23
-- n=100: 61.2 ms; all pay 2.88e-64; loss > half aggregate 1.40e-43
-- n=200: 205.9 ms; all pay 1.05e-127; loss > half aggregate 6.21e-85
-- n=500: 1609.8 ms; all pay 5.11e-318; loss > half aggregate 9.65e-209
+- n=2: brute 0.001s, MPS 0.8 ms, max rel diff 4.6e-14
+- n=3: brute 0.006s, MPS 3.0 ms, max rel diff 3.0e-14
+- n=4: brute 0.114s, MPS 4.6 ms, max rel diff 3.2e-14
+- n=5: brute 6.205s, MPS 5.3 ms, max rel diff 5.5e-14
+- n=2: 0.8 ms; all pay 4.41e-02; loss > half aggregate 1.20e-02
+- n=5: 5.4 ms; all pay 5.29e-04; loss > half aggregate 1.01e-03
+- n=10: 6.6 ms; all pay 3.58e-07; loss > half aggregate 5.91e-06
+- n=20: 9.0 ms; all pay 1.62e-13; loss > half aggregate 2.75e-10
+- n=50: 24.7 ms; all pay 1.51e-32; loss > half aggregate 7.78e-23
+- n=100: 46.3 ms; all pay 2.88e-64; loss > half aggregate 1.40e-43
+- n=200: 169.9 ms; all pay 1.05e-127; loss > half aggregate 6.21e-85
+- n=500: 1780.5 ms; all pay 5.11e-318; loss > half aggregate 9.65e-209
 
 ## Resources
 
